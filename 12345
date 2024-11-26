@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLEX Cryptocurrency</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #dfe6e9;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #39444b;
+        }
+
+        header h1 {
+            color: #00cec9;
+            font-size: 28px;
+            margin: 0;
+        }
+
+        nav a {
+            color: #dfe6e9;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #00cec9;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: rgba(0, 0, 0, 0.8);
+            position: relative;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .coin {
+            width: 200px;
+            margin: 20px auto;
+            display: block;
+            animation: pulse 2s infinite ease-in-out;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            margin: 20px 0;
+            position: relative;
+        }
+
+        .section h3 {
+            font-size: 28px;
+            color: #00cec9;
+        }
+
+        .section p {
+            font-size: 16px;
+            color: #b2bec3;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #636e72;
+            position: relative;
+        }
+
+        footer .coin {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PLEX Cryptocurrency</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#roadmap">Roadmap</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Зарабатывай и играй с PLEX – криптовалютой нового поколения!</h2>
+        <p>PLEX – это возможность зарабатывать, играть и инвестировать.</p>
+        <img src="coin.png.png" alt="PLEX Coin" class="coin">
+    </div>
+
+    <div class="section" id="about">
+        <h3>Что такое PLEX?</h3>
+        <p>PLEX – это больше, чем внутриигровая валюта. Это утилити токен, который открывает новые возможности:</p>
+        <ul>
+            <li><strong>Для игроков:</strong> возможность зарабатывать криптовалюту, участвуя в игре и активностях.</li>
+            <li><strong>Для инвесторов:</strong> доступ к стабильной и растущей прибыли.</li>
+            <li><strong>Для магазинов:</strong> инновационное платёжное средство для игрового контента и товаров.</li>
+        </ul>
+    </div>
+
+    <div class="section" id="features">
+        <h3>Особенности PLEX</h3>
+        <p>Что делает PLEX уникальным:</p>
+        <ul>
+            <li>Мгновенные транзакции на блокчейне BNB.</li>
+            <li>Рост стоимости благодаря ликвидности и поддержке BNB.</li>
+            <li>Поддержка сообщества и мощная инфраструктура.</li>
+            <li>Использование в играх, магазинах и приложениях.</li>
+        </ul>
+    </div>
+
+    <div class="section" id="roadmap">
+        <h3>Дорожная карта</h3>
+        <p>Ключевые этапы:</p>
+        <ul>
+            <li><strong>2024–2025:</strong> Старт продукта и запуск инфраструктуры PLEX.</li>
+            <li><strong>2025–2026:</strong> Интеграция PLEX в игровые магазины, торговых роботов и интернет-магазины техники.</li>
+        </ul>
+    </div>
+
+    <div class="section" id="faq">
+        <h3>Часто задаваемые вопросы</h3>
+        <p><strong>Почему стоит покупать PLEX?</strong><br>Для игроков, инвесторов и магазинов это уникальная возможность заработать.</p>
+        <p><strong>Как использовать PLEX?</strong><br>В играх, интернет-магазинах и приложениях.</p>
+        <p><strong>Как купить PLEX?</strong><br>Через наш сайт или партнёрские платформы.</p>
+    </div>
+
+    <div class="section" id="contact">
+        <h3>Контакты</h3>
+        <p>Оставайтесь на связи:</p>
+        <ul>
+            <li>Email: support@plexcrypto.com</li>
+            <li>Соцсети: Telegram, Discord, Twitter (планируются).</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 PLEX Cryptocurrency. All rights reserved.</p>
+        <img src="coin.png.png" alt="PLEX Coin" class="coin">
+    </footer>
+</body>
+</html>
